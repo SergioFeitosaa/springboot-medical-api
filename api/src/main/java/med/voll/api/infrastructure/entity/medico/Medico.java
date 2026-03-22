@@ -4,9 +4,9 @@ import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.*;
 import med.voll.api.infrastructure.entity.endereco.Endereco;
-import med.voll.api.medico.DadosAtualizacaoMedico;
-import med.voll.api.medico.DadosCadastroMedico;
-import med.voll.api.medico.Especialidade;
+import med.voll.api.dto.DadosAtualizacaoMedico;
+import med.voll.api.dto.DadosCadastroMedico;
+import med.voll.api.dto.Especialidade;
 
 @Entity
 @Table(name = "medicos")

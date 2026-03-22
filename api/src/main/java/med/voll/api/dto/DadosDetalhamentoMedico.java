@@ -1,4 +1,4 @@
-package med.voll.api.medico;
+package med.voll.api.dto;
 
 import med.voll.api.infrastructure.entity.endereco.Endereco;
 import med.voll.api.infrastructure.entity.medico.Medico;
